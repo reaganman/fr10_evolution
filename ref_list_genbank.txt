@@ -1,0 +1,7 @@
+ftp.ncbi.nlm.nih.gov/genomes/genbank/vertebrate_other/Hyla_sarda/latest_assembly_versions/GCA_029499605.1_aHylSar1.hap1/GCA_029499605.1_aHylSar1.hap1
+ftp.ncbi.nlm.nih.gov/genomes/genbank/vertebrate_other/Hyla_sarda/latest_assembly_versions/GCA_029493135.1_aHylSar1.hap2/GCA_029493135.1_aHylSar1.hap2
+https://ftp.ncbi.nlm.nih.gov/genomes/genbank/vertebrate_other/Pseudophryne_corroboree/latest_assembly_versions/GCA_028390055.1_aPseCor3.hap1/GCA_028390055.1_aPseCor3.hap1
+https://ftp.ncbi.nlm.nih.gov/genomes/genbank/vertebrate_other/Pseudophryne_corroboree/latest_assembly_versions/GCA_028390025.1_aPseCor3.hap2/GCA_028390025.1_aPseCor3.hap2_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/genbank/vertebrate_other/Gastrophryne_carolinensis/latest_assembly_versions/GCA_027917425.1_aGasCar1.pri/GCA_027917425.1_aGasCar1.pri_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/genbank/vertebrate_other/Gastrophryne_carolinensis/latest_assembly_versions/GCA_027917415.1_aGasCar1.hap2/GCA_027917415.1_aGasCar1.hap2_genomic.fna.gz
+

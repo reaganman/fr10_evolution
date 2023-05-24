@@ -1,0 +1,2 @@
+makeblastdb -in fr10.fasta -dbtype nucl -out fr10.fasta.db
+for GENOME in *; do blastn -query $GENOME -db fr10.fasta.db -evalue 0.001 -outfmt 6 -out results.txt

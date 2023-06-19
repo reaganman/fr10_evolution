@@ -1,0 +1,9 @@
+19 June 2023
+1. Update CatPop github documentation to include exact coding steps
+   (example code: https://github.com/KLab-UT/CHPC-intro/blob/main/README.md)
+2. Download reference frog genomes to scratch
+   /scratch/general/nfs1/utu_4310/fr10_evolution_wd/reference_genomes
+3. Create blast database for reference genomes in scratch
+   scratch/general/nfs1/utu_4310/fr10_evolution_wd/blast_db
+4. Generate blast output in scratch
+   /scratch/general/nfs1/utu_4310/fr10_evolution_wd/blast_outputs

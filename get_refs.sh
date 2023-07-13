@@ -5,7 +5,7 @@ usage="$(basename "$0") [-h] [-I <SRA_list_Illumina>] [-N <SRA_list_Nanopore>] [
 This program downloads the reference sequences that are being used to test read mapping to divergent genomes. Run the script from the directory where -l is located.
     -h  show this help text
     -d  path to reference directory (where references will be saved)
-    -l  path to list of ftp reference paths"
+    -l  name of the reference list text file"
 options=':h:d:l:'
 while getopts $options option; do
   case "$option" in

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ##Need to download fr10/scratch/general/nfs1/utu_4310/fr10_evolution_wd/reference_genome.fasta
 ##Need to make a directory for all the dbs
 
@@ -10,15 +9,6 @@ bash /uufs/chpc.utah.edu/common/home/u6052680/fr10_evolution/get_refs.sh -d /scr
 #make blast db for each genome
 cd /scratch/general/nfs1/utu_4310/fr10_evolution_wd/blast_db
 for genome in /uufs/chpc.utah.edu/common/home/u6052680/fr10_evolution/refs; do makeblastdb -in $genome -dbtype nucl -out $genome.db
-=======
-#download the genomes
-cd /scratch/general/nfs1/utu_4310/fr10_evolution_wd
-bash get_refs.sh -d ref_list_genbank.txt -l refs
-
-#make blast db for each genome
-cd /scratch/general/nfs1/utu_4310/fr10_evolution_wd/blast_db
-for genome in /scratch/general/nfs1/utu_4310/fr10_evolution_wd/refs; do makeblastdb -in $genome -dbtype nucl -out $genome.db
->>>>>>> 21fae63bb8acd00171af96193ece8220aa1390c4
 done
 
 #blast each genome for fr10

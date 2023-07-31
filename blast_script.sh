@@ -5,13 +5,15 @@
 module load blast/2.11.0
 cd ~/fr10_evolution
 bash /uufs/chpc.utah.edu/common/home/u6052680/fr10_evolution/get_refs.sh -d /scratch/general/nfs1/utu_4310/fr10_evolution_wd/reference_genomes -l fixed_ref_genbank.txt 
+mkdir /scratch/general/nfs1/utu_4310/fr10_evolution_wd/fnas_dbs
+mv /scratch/general/nfs1/utu_4310/fr10_evolution_wd/reference_genomes/fna$ /scratch/general/nfs1/utu_4310/fr10_evolution_wd/fnas_dbs
 
 #make blast db for each genome
-cd /scratch/general/nfs1/utu_4310/fr10_evolution_wd/blast_db
-for genome in /scratch/general/nfs1/utu_4310/fr10_evolution_wd/reference_genomes/*; do makeblastdb -in $genome -dbtype nucl -out $genome.db
+
+for genome in /scratch/general/nfs1/utu_4310/fr10_evolution_wd/fnas_dbs/*.fna; do makeblastdb -in $genome -dbtype nucl -out $genome.db
 done
 
 #blast each genome for fr10
-cd /scratch/general/nfs1/utu_4310/fr10_evolution_wd/blast_outputs
-for db in /scratch/general/nfs1/utu_4310/fr10_evolution_wd/blast_db/*; do blastn -query  /uufs/chpc.utah.edu/common/home/u6052680/fr10_evolution/fr10.fasta -db $db -evalue 0.001 -outfmt 6 -out $db.results.txt
+for genome in /scratch/general/nfs1/utu_4310/fr10_evolution_wd/fnas_dbs/*.fna; do blastn -query  /uufs/chpc.utah.edu/common/home/u6052680/fr10_evolution/fr10.fasta -db "$genome.db" -evalue 0.001 -outfmt "6 qseqid sseqid evalue sseq -out "$genome.db.results.txt"
 done
+mv /scratch/general/nfs1/utu_4310/fr10_evolution_wd/fnas_dbs/*.db.results.txt /scratch/general/nfs1/utu_4310/fr10_evolution_wd/blast_outputs

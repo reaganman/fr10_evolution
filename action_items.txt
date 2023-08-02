@@ -1,9 +1,19 @@
 19 June 2023
 1. Update CatPop github documentation to include exact coding steps
    (example code: https://github.com/KLab-UT/CHPC-intro/blob/main/README.md)
-2. Download reference frog genomes to scratch
+2. Download reference frog genomes to scratch DONE!
    /scratch/general/nfs1/utu_4310/fr10_evolution_wd/reference_genomes
-3. Create blast database for reference genomes in scratch
+3. Create blast database for reference genomes in scratch CURRENTLY RUNNING!
    scratch/general/nfs1/utu_4310/fr10_evolution_wd/blast_db
-4. Generate blast output in scratch
+4. Generate blast output in scratch READY TO GO!
    /scratch/general/nfs1/utu_4310/fr10_evolution_wd/blast_outputs
+
+-----------------------
+
+
+1. Create summary of blast results to all genomes. Within summary, include this:
+a. If a genome got a hit
+b. How many hits each genome got
+c. what is the gene that got hit and what is its e-value for the hit
+   --- Many of the genes may not have gene names, but you can check by taking the sequence of the subject (the match on the reference) and blasting it to find out what it is. To get the sequence of the reference seq, change the -outfmt to -outfmt "7 qseqid sseqid evalue qstart qend sstart send sseq".
+

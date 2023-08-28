@@ -1,3 +1,11 @@
+28 August 2023
+1. Vicente- add Lithobates species to maps, and additional Rana species
+2. Reagan- get amino acid sequences from the four species
+-- We need to go into the genome to do this- there may be an intron...
+3. Reagan and Vicente- figure out pandas (tutorial: https://github.com/joaks1/python-tabular-data)
+-- Goal with pandas: pull out all of the taxa of interest and put them into a csv
+4. For next time (or if Randy has time), design primers
+
 19 June 2023
 1. Update CatPop github documentation to include exact coding steps
    (example code: https://github.com/KLab-UT/CHPC-intro/blob/main/README.md)

@@ -1,14 +1,20 @@
 import sys
 
-def get_seqs(filename):
-    with open(filename, "r") as file:
+def get_seqs(file_in, file_out):
+    with open(file_in, "r") as file:
         lines = file.readlines()
+        seqs = []
         for line in lines:
             line = line.strip().replace("\t","").split(",")
             seq = ">"+line[0]+"\n"+line[-1]
             print(seq)
+            seqs.append(seq)
+    with open(file_out, "w") as out:
+        for i in seqs:
+            out.write(i)
 
 if __name__ == "__main__":
     file_in = sys.argv[1]
-    get_seqs(file_in)
+    file_out = sys.argv[2]
+    get_seqs(file_in, file_out)
 

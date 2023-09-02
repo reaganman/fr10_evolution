@@ -15,6 +15,6 @@ cd ~/fr10_evolution
 #done
 
 #blast each genome for fr10
-for genome in /scratch/general/nfs1/utu_4310/fr10_evolution_wd/fnas_dbs/*.fna; do blastn -query  /uufs/chpc.utah.edu/common/home/u6052680/fr10_evolution/fr10.fasta -db "$genome.db" -evalue 0.001 -outfmt "6 stitle qseqid sseqid evalue sstart send sseq length pident mismatch frames" -out "$genome.db.results.txt"
+for genome in /scratch/general/nfs1/utu_4310/fr10_evolution_wd/fnas_dbs/*.fna; do tblastx -query  /uufs/chpc.utah.edu/common/home/u6052680/fr10_evolution/fr10.fasta -db "$genome.db" -evalue 0.01 -outfmt "6 stitle qseqid sseqid evalue sstart send sseq length pident mismatch frames" -out "$genome.db.results.txt"
 done
 mv /scratch/general/nfs1/utu_4310/fr10_evolution_wd/fnas_dbs/*.db.results.txt /scratch/general/nfs1/utu_4310/fr10_evolution_wd/blast_outputs

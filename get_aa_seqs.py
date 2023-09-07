@@ -6,7 +6,8 @@ def get_seqs(file_in, file_out):
         seqs = []
         for line in lines:
             line = line.strip().replace("\t","").split(",")
-            seq = ">"+line[0]+"\n"+line[-1]
+            seq = ">"+"_".join(line[:-1])+"\n"+line[-1]+"\n"
+            seq = seq.strip()
             print(seq)
             seqs.append(seq)
     with open(file_out, "w") as out:

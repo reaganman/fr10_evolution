@@ -1,0 +1,14 @@
+bash commands:
+pwd = print working directory (the directory you are currently in)
+ls = list everything in current directory
+cd = change directory
+open <filename> -a <app>
+open Ranidae_latitude_and_elevation -a Microsoft\ Excel
+nano <filename> = opens up text editor
+git commands:
+! Do the following IN ORDER
+git pull = updates git repository from any changes people have pushed to github
+git add <filename> = adds <filename> if you have edited it to a staging area
+git commit -m "message here" = commits your staged files to your local repository (on your computer)
+git push = pushes all of your committed changes to the github repository
+

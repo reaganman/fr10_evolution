@@ -1,3 +1,9 @@
+8 September 2023
+From meeting with Vicente:
+- Get new database from vertnet that includes all Ranidae specimens (not just tissues)
+--  This will provide more info on lat/long and elevation
+- Use pandas to find lat/long and elevation info from the new vertnet database
+
 28 August 2023
 1. Vicente- add Lithobates species to maps, and additional Rana species
 2. Reagan- get amino acid sequences from the four species

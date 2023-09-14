@@ -6,4 +6,4 @@
 #SBATCH -o slurm-%j.out-%N
 #SBATCH -e slurm-%j.err-%N
 
-bash blast_script.sh
+bash primer_blast.sh

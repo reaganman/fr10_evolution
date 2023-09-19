@@ -1,3 +1,9 @@
+18 September 2023
+from meeting with Vicente and Reagan
+- Look for first 15 aa in sylvaticus genome: where are they located? Reagan will work on this
+- Try to find primers. Try blast-short, but also look at highly-conserved sequences at the beginning and end of the loci that hit.
+- Vicente will fill in latitude/elevation data
+
 15 September 2023
 From meeting with Randy and Vicente
 - Take time to do plural sight tutorial on using pandas (python package)

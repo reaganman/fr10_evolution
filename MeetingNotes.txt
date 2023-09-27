@@ -1,3 +1,14 @@
+27 September 2023
+from meeting with Vicente and Reagan
+- Get exon 1 for other taxa that are lacking it in the tblast_alignments.fasta file (see blastn results), add these to the tblast_alignments.fasta file and save this as a new file called "consensus_alignment.fasta" 
+- Get exon 1 and 3 for Nanorana (and any others that have them missing) by looking at the genome itself (use the exon 2 location, and crop genome on several thousand bp on either end to include exon 1 and 3. You can then search for these using blast.
+- Merge sequences for individual taxa so there is a single sequence for each taxon
+- Keep working on finding primers; specifically, look for 3 sets of primers: (1) primers for exon 1, (2) primers for exon 2, (3) primers for exon 3
+- Reagan was trying tblast with the whole genetic region (the 3 exons and their two large introns)
+--- This is based on a hunch that their may be alternative splicing
+--- Let's not focus on alternative splicing for now, but keep this in mind and look at it later
+
+
 18 September 2023
 from meeting with Vicente and Reagan
 - Look for first 15 aa in sylvaticus genome: where are they located? Reagan will work on this

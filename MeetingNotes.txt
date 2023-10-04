@@ -1,3 +1,9 @@
+4 October 2023
+from meeting with Vicente and Reagan
+- Reagan created an alignment file called exons_blastn.fasta, which contains the aligned results from a blastn he did where he independently looked for the three different exons accross all of the frog genomes on Genbank.
+- We then used AliView to develop primers, and Randy will finish this up and select three primer sets to get the three exons for Ranid species
+- Reagan will look at where the different Ranid species with genomic data live and categorize them as "cold" and "not cold", then look at the nucleotide frequency between these.
+
 27 September 2023
 from meeting with Vicente and Reagan
 - Get exon 1 for other taxa that are lacking it in the tblast_alignments.fasta file (see blastn results), add these to the tblast_alignments.fasta file and save this as a new file called "consensus_alignment.fasta" 

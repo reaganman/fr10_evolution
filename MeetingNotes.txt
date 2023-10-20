@@ -1,3 +1,37 @@
+20 October 2023
+from meeting with Vicente
+- Vicente prepared letters for 9 institutions. We are now figuring out how to reach out to the collections managers at these institutions:
+-- Bishop Museum (collections manager: Molly Hagemann - we sent her an email)
+---- May have online portal
+-- Field Museum (collections managers Chun and Josh - we sent them an email)
+---- Requires formal request on letterhead sent by mail
+-- Natural History Museum at Los Angeles (collections manager Neftali Camacho - we sent him an email)
+---- Requires formal request on letterhead sent by email
+---- https://nhm.org/research-collections/departments/herpetology
+-- Sternberg Museum at Fort Hayes State University (curators Laura Wilson and William Stark - we sent them an email)
+-- Museum of Vertebrate Zoology (staff curator: Carol Spencer. Curators: Rebecca Tarvin and Jim McGuire- Randy will email them)
+-- Sam Noble OMNH (curator: Cameron Siler- go ahead and send formal letter when ready to his email)
+---- https://samnoblemuseum.ou.edu/wp-content/uploads/2014/11/Herpetology-loan-Policy.pdf
+-- California Academy of Sciences (collections manager: Lauren Scheinberg - Randy emailed her)
+---- Requires formal request on letterhead sent by email
+---- https://www.calacademy.org/scientists/herpetology-collection
+-- Royal Ontario Museum (museum director- Josh Basseches, curator- Bob Murphy - Randy emailed Bob)
+-- Florida Museum (collections manager- Coleman Sheehy - Randy emailed him)
+-- Additionally, consider the requirements specific to each institution
+-- For instance, the Field Museum has a page about tissue loans with a procedure for loans: https://www.fieldmuseum.org/science/research/area/amphibians-reptiles/amphibians-reptiles-policies-loans-and-collection-visits
+
+- The letters should be updated based on Randy's general edits to the Fort Hayes State (Aspidoscelis) letter.
+-- Some general things that letters should contain:
+---- Specify that we are a PUI (primarily undergraduate institution with no graduate program.
+---- Only request a maximum of five samples per species
+---- Our requested tissue size: 20-25 mg (toe clip or liver is ideal)
+---- If DNA extraction is available, that would be preferred over the tissue sample. Otherwise we would use the available tissue sample to extract DNA here at Utah Tech (we recently purchased a DNA extraction kit dedicated to this project).
+---- State that we are procuring tissues from multiple institutions to complete this project, and that it will be a great example of the utility of natural history collections with addressing large-scale evolutionary questions.
+---- Qualifications: Vicente- Natural Science major, coursework in genetics, field research seminar, individual research, and international research fellow. Randy- Professor of biology with focus on evolutionary genetics, has worked in/with museums for multiple projects (accesioning specimens, extracting and sequencing DNA from tissue loans) to contribute to projects on phylogenetics and evolution (cite Randy's papers from Molecular Phylogenetics and Evolution (Draco) and American Naturalist (Aspidoscelis)).
+---- If the museum is interested in storing the remaining DNA extraction, we can provide this back to the institution.
+
+-- Also, create an additional letter for LSUMZ (for Rana temporaria)
+
 4 October 2023
 from meeting with Vicente and Reagan
 - Reagan created an alignment file called exons_blastn.fasta, which contains the aligned results from a blastn he did where he independently looked for the three different exons accross all of the frog genomes on Genbank.
